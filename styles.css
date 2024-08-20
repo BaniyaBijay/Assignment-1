@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    background-color: #121212; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e0e0e0; 
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    height: 50px; 
+    margin-right: 1rem; 
+    vertical-align: middle; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto;
+    padding: 1rem;
+}
+
+.header {
+    background-color: #1f1f1f; 
+    color: #e0e0e0; 
+    padding: 1rem 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 0.375rem;
+    background-color: #1e1e1e; 
+    color: #e0e0e0; 
+    margin-right: 0.5rem;
+}
+
+.search-form button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 0.375rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Styles */
+.nav-pills .nav-link {
+    color: #b0b0b0; 
+}
+
+.nav-pills .nav-link.active {
+    background-color: #333; 
+    color: #fff; 
+}
+
+/* SCP Boxes Styles */
+.scp-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.scp-box {
+    display: block;
+    background-color: #1e1e1e; 
+    border: 1px solid #333; 
+    border-radius: 8px; 
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+    color: #e0e0e0; 
+    text-decoration: none; 
+}
+
+.scp-box h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.scp-box p {
+    margin-bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f; 
+    color: #e0e0e0; 
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-main {
+    text-align: center;
+}
+
+.footer-main p {
+    margin-bottom: 0;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 0.5rem 0; 
+}
+
+.footer-info a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-info a:hover {
+    color: #007bff; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 1.5rem; 
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+    color: #007bff; 
+}
+
+/* Footer Responsive Adjustments */
+@media (min-width: 768px) {
+    footer .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-info {
+        flex: 2; 
+    }
+
+    .footer-main,
+    .social-icons {
+        flex: 1;
+    }
+}
+
+/* Image Container Styles */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+/* SCP Container Styles */
+.scp-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Style for the footer image container */
+.footer-image-container {
+    text-align: center; 
+    margin-bottom: 2rem; 
+}
+
+.footer-image-container img {
+    width: 100%; 
+    height: auto; 
+    max-width: 1500px; 
+    height: 190px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.back-button {
+    background-color: #007bff; 
+    border-color: #007bff;
+    color: #fff; 
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block; 
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+    border-color: #004085;
+}
